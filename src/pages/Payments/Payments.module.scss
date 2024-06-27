@@ -1,0 +1,15 @@
+.paymentsArea {
+	.btnArea {
+		margin: 10px 0;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+	}
+	.filterArea {
+		display: flex;
+		align-items: center;
+		padding: 15px 0px;
+		margin: 10px 0;
+		flex-wrap: wrap;
+	}
+}

@@ -1,0 +1,41 @@
+.linearProgressContainer {
+    width: 110px;
+    color: grey.500;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.boxContainer {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+.loadIdTable {
+    width: 50%;
+    padding: 10px !important;
+
+    div {
+        height: 20px !important;
+
+        span {
+            font-size: 12px !important;
+        }
+    }
+}
+
+.carrierInfoTable {
+    padding: 10px !important;
+
+    div {
+        height: 20px !important;
+
+        span {
+            font-size: 12px !important;
+        }
+    }
+
+}

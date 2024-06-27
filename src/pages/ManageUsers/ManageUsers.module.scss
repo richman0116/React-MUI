@@ -1,0 +1,13 @@
+.switchContainer {
+	:global {
+		.MuiSwitch-track {
+			height: 14px !important;
+			margin-top: 3px !important;
+			width: 40px !important;
+		}
+	}
+}
+
+.addPadding {
+	padding-left: 10px !important;
+}

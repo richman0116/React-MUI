@@ -1,0 +1,41 @@
+.orderArea {
+	.orderTop {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		padding: 10px 0;
+	}
+}
+
+.addOrder {
+	.addOrderColumn {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 1rem;
+	}
+
+	.twoColumn {
+		display: grid;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		gap: 1rem;
+	}
+
+	.oneColumn {
+		display: grid;
+		grid-template-columns: 1fr;
+		padding: 20px 0;
+	}
+
+	.twoColumnTwoRow {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: auto auto;
+		gap: 20px;
+		padding: 20px 0;
+	}
+}
+
+.actionRow {
+	display: flex;
+	align-items: center;
+}

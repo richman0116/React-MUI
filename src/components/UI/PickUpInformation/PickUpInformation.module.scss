@@ -1,0 +1,121 @@
+//sectionize css
+.customerInfo,
+.carrierInfo,
+.pickUpInformation,
+.deleveryInformation,
+.comodityDisp,
+.attachmentNotes {
+	background-color: #f9f9f9; /* Light background color for each card */
+	border-radius: 8px;
+	margin-bottom: 20px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	display: flex;
+	flex-direction: column;
+	h2 {
+		font-size: 1.5rem;
+		margin-bottom: 15px;
+	}
+
+	:global {
+		.form-select {
+			background-color: transparent;
+		}
+		.form-control {
+			background-color: transparent;
+		}
+		.input-group-text {
+			background-color: transparent;
+		}
+	}
+}
+
+/* Make text smaller */
+label,
+input,
+textarea,
+select,
+button {
+	font-size: 14px;
+}
+
+/* Add some spacing between sections */
+.customerInfo + *,
+.carrierInfo + *,
+.pickUpInformation + *,
+.deleveryInformation + *,
+.comodityDisp + *,
+.attachmentNotes + * {
+	margin-bottom: 18px;
+}
+
+.twoColumn {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: 3rem;
+	margin-bottom: 1rem;
+}
+
+.threeColumn {
+	display: grid;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+	gap: 1.5rem;
+	margin-bottom: 1rem;
+}
+
+.informationCard {
+	.informationContent {
+		margin: 0 !important;
+		padding: 10px !important;
+	}
+	margin-bottom: 16px;
+	min-height: 110px;
+	p {
+		margin: 0;
+		font-size: 12px;
+	}
+}
+.timePicker {
+	:global {
+		.MuiInputBase-root {
+			height: 40px !important;
+		}
+		.MuiInputBase-root {
+			height: 40px;
+		}
+		.MuiFormLabel-root {
+			top: -5px;
+		}
+	}
+}
+
+.customTextArea {
+	:global {
+		.MuiFormControl-root {
+			border: 1px solid gainsboro;
+			border-radius: 4px;
+		}
+		.MuiFormLabel-root {
+			background-color: whitesmoke;
+			padding: 0px 2px;
+		}
+		.css-1rb63tl-MuiInputBase-root-MuiInput-root:before {
+			border-bottom: none !important;
+		}
+		.css-1rb63tl-MuiInputBase-root-MuiInput-root:after {
+			border-bottom: none !important;
+		}
+		.MuiInputBase-input {
+			padding: 16px !important;
+			height: auto !important;
+			padding-top: 0 !important;
+		}
+	}
+}
+
+.pickUpContainer {
+	:global {
+		.MuiFormHelperText-root {
+			margin: 0 !important;
+		}
+	}
+}

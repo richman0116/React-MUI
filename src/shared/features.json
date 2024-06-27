@@ -1,0 +1,100 @@
+{
+    "Dashboard": {
+        "All": false,
+        "Read": false,
+        "Create": false,
+        "Update": false,
+        "Delete": false
+    },
+    "Load": {
+        "All": false,
+        "Read": false,
+        "Create": false,
+        "Update": false,
+        "Delete": false
+    },
+    "Asset": {
+        "All": false,
+        "Read": false,
+        "Create": false,
+        "Update": false,
+        "Delete": false
+    },
+    "Customer": {
+        "All": false,
+        "Read": false,
+        "Create": false,
+        "Update": false,
+        "Delete": false
+    },
+    "Accounting": {
+        "All": false,
+        "Read": false,
+        "Create": false,
+        "Update": false,
+        "Delete": false
+    },
+    "AccountingBroker": {
+        "All": false,
+        "Read": false,
+        "Create": false,
+        "Update": false,
+        "Delete": false
+    },
+    "AccountingDriver": {
+        "All": false,
+        "Read": false,
+        "Create": false,
+        "Update": false,
+        "Delete": false
+    },
+    "User": {
+        "All": false,
+        "Read": false,
+        "Create": false,
+        "Update": false,
+        "Delete": false
+    },
+    "Team": {
+        "All": false,
+        "Read": false,
+        "Create": false,
+        "Update": false,
+        "Delete": false
+    },
+    "Tracking": {
+        "All": false,
+        "Read": false,
+        "Create": false,
+        "Update": false,
+        "Delete": false
+    },
+    "Feature": {
+        "All": false,
+        "Read": false,
+        "Create": false,
+        "Update": false,
+        "Delete": false
+    },
+    "Profile": {
+        "All": false,
+        "Read": false,
+        "Create": false,
+        "Update": false,
+        "Delete": false
+    },
+    "Settings": {
+        "All": false,
+        "Read": false,
+        "Create": false,
+        "Update": false,
+        "Delete": false
+    },
+    "Organization": {
+        "All": false,
+        "Read": false,
+        "Create": false,
+        "Update": false,
+        "Delete": false
+    }
+}

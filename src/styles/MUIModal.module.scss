@@ -1,0 +1,62 @@
+:global {
+	.modal-content {
+		border-radius: 8px !important;
+	}
+	.modal-dialog {
+		max-width: 100% !important;
+	}
+	.default-modal-width {
+		.MuiDialog-paper {
+			max-width: 60% !important;
+		}
+	}
+	.modal-body {
+		padding: 14px 4px !important;
+	}
+	.wd-80 {
+		.MuiDialog-paper {
+			max-width: 80% !important;
+		}
+	}
+
+	.wd-65 {
+		.MuiDialog-paper {
+			max-width: 65% !important;
+		}
+	}
+
+	.wd-90 {
+		.MuiDialog-paper {
+			max-width: 90% !important;
+		}
+	}
+
+	.wd-95 {
+		.MuiDialog-paper {
+			max-width: 95% !important;
+		}
+	}
+
+	.wd-60 {
+		.MuiDialog-paper {
+			max-width: 50% !important;
+		}
+	}
+
+	.wd-35 {
+		.MuiDialog-paper {
+			max-width: 35% !important;
+		}
+	}
+
+	.wd-768 {
+		.MuiDialog-paper {
+			max-width: 768px !important;
+		}
+	}
+	.wd-437 {
+		.MuiDialog-paper {
+			max-width: 437px !important;
+		}
+	}
+}

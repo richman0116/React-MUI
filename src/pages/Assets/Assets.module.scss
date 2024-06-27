@@ -1,0 +1,64 @@
+.assetArea {
+	.actionArea {
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+		margin-bottom: 6px;
+	}
+}
+::global {
+	.modal-dialog {
+		max-width: 90% !important;
+	}
+}
+.addAssetArea {
+	padding: 0px 0px;
+	.twoColumnGrid {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		column-gap: 16px;
+	}
+	//sectionize css
+	.sectionCard {
+		// background-color: #f9f9f9; /* Light background color for each card */
+		border-radius: 8px;
+		margin-bottom: 24px;
+		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+.gridContainer {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr); /* Creates 6 equal-width columns */
+	grid-gap: 5px; /* Adds a gap of 20 pixels between each grid item */
+}
+
+.filterArea {
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 14px;
+}
+
+.actionRow {
+	display: flex;
+	align-items: center;
+}
+.searchBtn {
+	background-color: lightslategray !important;
+	border-radius: 2px !important;
+	color: white !important;
+	margin-left: -4px !important;
+}
+.statusSelect {
+	:global {
+		legend {
+			overflow: visible !important;
+			line-height: 13px;
+			span {
+				opacity: 1 !important;
+			}
+		}
+	}
+}

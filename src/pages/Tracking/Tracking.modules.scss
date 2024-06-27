@@ -1,0 +1,87 @@
+.sectionContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+}
+.orderArea {
+	.orderTop {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+}
+.driverInfor {
+	p {
+		padding: 0;
+		margin: 0;
+	}
+}
+.customerInfo {
+	p {
+		padding: 0;
+		margin: 0;
+	}
+	.customerName {
+		margin-bottom: 2px;
+	}
+}
+.orderTop {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.customerName {
+	max-width: 150px;
+	min-width: 150px;
+	color: #ffffff;
+	display: inline-table;
+	span {
+		font-size: 11px;
+	}
+	a {
+		color: #fff;
+		font-weight: bold;
+	}
+	.representatives {
+		color: #000000;
+		p,
+		a {
+			font-size: 12px;
+			color: black !important;
+			font-weight: 600;
+			opacity: 0.5;
+		}
+	}
+}
+
+.actionFlex {
+	display: flex;
+	align-items: center;
+}
+.locationList {
+	padding: 10px !important;
+	// margin-bottom: 5px !important;
+	border-radius: 4px;
+	background-color: #a9a9a930;
+	min-width: 180px;
+}
+
+.searchBtn {
+	background-color: lightslategray !important;
+	border-radius: 2px !important;
+	color: white !important;
+	margin-left: -4px !important;
+}
+.timePicker {
+	:global {
+		.MuiInputBase-root {
+			height: 40px !important;
+		}
+		.MuiInputBase-root {
+			height: 40px;
+		}
+		.MuiFormLabel-root {
+			top: -5px;
+		}
+	}
+}

@@ -1,0 +1,220 @@
+.sectionContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+}
+.orderArea {
+	.orderTop {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 10px 0;
+	}
+}
+.driverInfor {
+	p {
+		padding: 0;
+		margin: 0;
+	}
+}
+.customerInfo {
+	p {
+		padding: 0;
+		margin: 0;
+	}
+	.customerName {
+		margin-bottom: 2px;
+	}
+}
+.orderTop {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 10px 0;
+}
+
+.location {
+	color: #0948b3;
+	font-size: 0.7rem;
+	font-weight: bold;
+}
+
+.pltwt {
+	display: flex;
+	gap: 1rem;
+
+	span {
+		font-size: 0.7rem;
+		color: black;
+		font-weight: 500;
+	}
+}
+.basic {
+	display: block;
+	margin-top: 5px;
+	font-size: 0.7rem;
+	color: black;
+	font-weight: 500;
+}
+
+.flexColumn {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.origin {
+	font-weight: 500;
+	font-size: 0.9rem;
+}
+
+.timePicker {
+	:global {
+		.MuiInputBase-root {
+			height: 44px !important;
+		}
+		.MuiTextField-root {
+			display: block;
+		}
+		.MuiInputBase-root {
+			height: 44px;
+		}
+	}
+}
+
+.addOrder {
+	.addOrderColumn {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 1rem;
+	}
+
+	.carrierTitleSec {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-bottom: 11px;
+		h2 {
+			margin-bottom: 0 !important;
+		}
+	}
+
+	.flex {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		gap: 1rem;
+
+		.btn {
+			height: 32px;
+			width: 50px;
+			border-radius: 5px;
+			background-color: yellowgreen;
+			font-weight: 700;
+			font-size: 1.6rem;
+			display: grid;
+			place-content: center;
+			padding: 10px;
+			border: none;
+			transition: all 0.2s ease-in-out;
+		}
+
+		.btn:hover {
+			background-color: rgb(6, 8, 0);
+			color: white;
+		}
+	}
+
+	.flexstart {
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		gap: 1.5rem;
+	}
+
+	.twoColumn {
+		display: grid;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		gap: 3rem;
+	}
+
+	.oneColumn {
+		display: grid;
+		grid-template-columns: 1fr;
+		padding: 20px 0;
+
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		gap: 1.5rem;
+	}
+
+	.oneColumn {
+		display: grid;
+		grid-template-columns: 1fr;
+		padding: 20px 0;
+
+		.fullWidth {
+			width: 100%;
+			max-width: 100%;
+		}
+	}
+}
+.customerName {
+	width: 180px !important;
+	color: #ffffff;
+	display: inline-table;
+	span {
+		font-size: 11px;
+	}
+	a {
+		color: #fff;
+		font-weight: bold;
+	}
+	.representatives {
+		color: #000000;
+		width: 180px !important;
+		p,
+		a {
+			font-size: 12px;
+			color: black !important;
+			font-weight: 600;
+			opacity: 0.5;
+		}
+	}
+}
+.driverDetails {
+	p,
+	a {
+		font-size: 12px;
+		color: black !important;
+		font-weight: 600;
+		opacity: 0.5;
+	}
+}
+
+.actionFlex {
+	display: flex;
+	align-items: center;
+}
+.locationList {
+	padding: 10px !important;
+	// margin-bottom: 5px !important;
+	border-radius: 4px;
+	background-color: #a9a9a930;
+	min-width: 180px;
+}
+.DOChips {
+	:global {
+		.MuiChip-label {
+			padding: 3px !important;
+		}
+	}
+}
+
+.mail {
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: block;
+}

@@ -1,0 +1,79 @@
+::global {
+  .css-19kzrtu{
+    padding: 0px !important;
+    margin: 0px !important;
+  }
+  .css-6wcx0a-MuiResponsiveChart-container{
+    display: contents !important;
+}
+}
+
+.yellowBox {
+	background-color: #383C4D;
+	border-radius: 5px;
+  margin-bottom: 10px;
+  color: white;
+}
+.greenBox {
+	background-color: #05A677;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+	border-radius: 5px;
+  margin-bottom: 10px;
+  color: white;
+}
+.violetBox {
+	background-color: #4B367C;
+	border-radius: 5px;
+  margin-bottom: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.neviBox {
+	background-color: #0948B3;
+	border-radius: 5px;
+  margin-bottom: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.assBox {
+	background-color: #4C5680;
+	border-radius: 5px;
+  margin-bottom: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.lightViolateBox {
+	background-color: #9F90EF;
+	border-radius: 5px;
+  margin-bottom: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.whiteBox {
+	background-color: white;
+	border-radius: 5px;
+  margin-bottom: 10px;
+}
+.goalLeft{
+  height: 115px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    // margin: 5px 0; 
+    color:green;
+}
+
+// chart Bars style
+

@@ -1,0 +1,51 @@
+.leaflet-container {
+  height: 100vh;
+  width: 100%;
+}
+
+.leaflet-right .leaflet-routing-container.leaflet-routing-container-hide {
+  margin-right: 10px !important;
+  display: none;
+}
+
+.floating {
+  position: absolute;
+  top: 10px;
+  z-index: 1;
+  width: 100%;
+}
+.map-btn:hover, .grp-map-btn:hover{
+  background-color: #FFFFFF !important;
+  color: #000000;
+}
+
+.floating-card {
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* scrollbar width */
+::-webkit-scrollbar {
+  width: 6px !important;
+}
+
+/* scrollbar handle */
+::-webkit-scrollbar-thumb {
+  background: #d9d9d9 !important;
+  border-radius: 4px !important;
+}
+div[mapboxgl-children] {
+  height: auto !important;
+}
+.go-to-loc {
+  cursor: pointer;
+  font-size: 32px;
+  opacity: 0.5;
+  margin-top: 3px;
+  transition: transform 4s ease;
+}
+
+.go-to-loc:hover {
+  transform: translateX(3px);
+}

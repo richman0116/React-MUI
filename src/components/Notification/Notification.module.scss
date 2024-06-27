@@ -1,0 +1,12 @@
+.notificationMenu {
+	:global {
+		.MuiPaper-root {
+			text-wrap: wrap;
+		}
+	}
+}
+.notificationCard {
+	width: 340px !important;
+	font-size: 12px;
+	margin: 0;
+}

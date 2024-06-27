@@ -1,0 +1,91 @@
+.PaymentPreview {
+	$primary-color: #e7edf2;
+	$secondary-color: #d6dee6;
+
+	.clickableListItem {
+		margin-bottom: 5px;
+		background-color: $primary-color;
+		border-radius: 4px;
+		transition: background-color 0.3s ease;
+		// &:hover {
+		// 	background-color: $secondary-color;
+		// }
+	}
+}
+
+.timePicker {
+	:global {
+		.MuiInputBase-root {
+			height: 40px !important;
+			width: 100% !important;
+		}
+
+		.MuiTextField-root {
+			display: block;
+			width: 100% !important;
+		}
+
+		.MuiInputBase-root {
+			height: 40px;
+			width: 100%;
+		}
+
+		.MuiFormControl-root.MuiTextField-root {
+			width: 100% !important;
+		}
+
+		// .MuiInputBase-root.MuiOutlinedInput-root fieldset {
+		// 	border-color: #4A5073 !important;
+		// 	outline-color: #4A5073 !important;
+
+		// 	&:hover fieldset {
+		// 		border-color: #4A5073;
+		// 	}
+
+		// 	&.Mui-focused fieldset {
+		// 	  border-color: #4A5073;
+		// 	}
+		// }
+	}
+
+	& label {
+		color: #4a5073;
+		font-weight: bold;
+		border-color: #4a5073;
+	}
+
+	.MuiOutlinedInput-root {
+		// border-color: #4A5073;
+		border-color: red;
+	}
+}
+
+.infoFields {
+	& label {
+		color: black !important;
+		font-weight: bold;
+	}
+}
+
+.paymentTypeInput {
+	.MuiInputBase-root.MuiOutlinedInput-root fieldset {
+		border-color: #4a5073 !important;
+		outline-color: #4a5073 !important;
+
+		&:hover fieldset {
+			border-color: #4a5073;
+		}
+
+		// &.Mui-focused fieldset {
+		//   border-color: #4A5073;
+		// }
+	}
+}
+
+.btnGroup {
+	display: flex;
+	flex-direction: column;
+	.btn {
+		margin-bottom: 6px;
+	}
+}

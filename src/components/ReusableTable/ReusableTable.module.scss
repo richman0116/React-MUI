@@ -1,0 +1,10 @@
+.tableContainer {
+	:global {
+		.css-1wjk1gj-MuiTable-root {
+			min-width: unset !important;
+		}
+		.MuiPaper-root {
+			padding-bottom: 10px;
+		}
+	}
+}

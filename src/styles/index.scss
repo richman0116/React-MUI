@@ -1,0 +1,38 @@
+body {
+	margin: 0;
+	font-family: "Inter";
+}
+
+.text-white {
+	color: white;
+}
+.menu-icon {
+	// color: rgb(56 182 255);
+	color: #ffffff;
+}
+.menu-img {
+	width: 24px;
+	height: auto;
+}
+.text-primary {
+	color: #0948b3;
+}
+.text-secondary {
+	color: #262b40;
+}
+.bg-primary {
+	background-color: #0948b3;
+}
+.bg-secondary {
+	background-color: #262b40;
+}
+
+.flex-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.width-100 {
+	width: 100%;
+}

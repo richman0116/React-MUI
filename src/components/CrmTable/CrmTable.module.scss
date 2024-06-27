@@ -1,0 +1,95 @@
+.container {
+	background: transparent !important;
+}
+
+.tableContainer {
+	overflow-x: auto;
+	// max-height: calc(100vh - 365px);
+
+	:global {
+		.MuiTable-root {
+			min-width: 750px;
+			border-collapse: separate;
+			border-spacing: 0px 12px;
+			background-color: transparent;
+		}
+
+		.MuiTableRow-root > th,
+		.MuiTableRow-root > td {
+			border-bottom: 0;
+		}
+
+		.MuiTableHead-root {
+			background: #323a46;
+		}
+
+		.MuiTableRow-root > th:first-child {
+			border-top-left-radius: 8px;
+			border-bottom-left-radius: 8px;
+		}
+		.MuiTableRow-root > th:last-child {
+			border-top-right-radius: 8px;
+			border-bottom-right-radius: 8px;
+		}
+
+		.MuiTableRow-root td:first-child {
+			border-top-left-radius: 8px;
+			border-bottom-left-radius: 8px;
+		}
+
+		.MuiTableRow-root td:last-child {
+			border-top-right-radius: 8px;
+			border-bottom-right-radius: 8px;
+		}
+	}
+}
+
+.tHead {
+	:global {
+		.MuiTableRow-root {
+			color: white;
+			height: 56px;
+		}
+
+		.MuiTableRow-root > th > span {
+			font-family: "Inter";
+			font-style: normal;
+			font-weight: 400;
+			font-size: 13px;
+			line-height: 18px;
+			color: white;
+		}
+	}
+}
+
+.tRow {
+	:global {
+		.MuiTableRow-root {
+			height: 64px;
+			background: white;
+			border-radius: 8px;
+		}
+
+		.MuiTableRow-root > th,
+		.MuiTableRow-root > td {
+			font-family: "Inter";
+			font-style: normal;
+			font-weight: 400;
+			font-size: 12px;
+			line-height: 18px;
+			color: black;
+			padding: 7px 7px 7px 16px !important;
+			p,
+			div,
+			span {
+				font-size: 12px;
+				margin: 0;
+				padding: 0;
+			}
+		}
+	}
+}
+
+.removeExtragap {
+	margin-top: -12px;
+}
